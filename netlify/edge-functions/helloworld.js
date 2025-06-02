@@ -3,7 +3,3 @@ export default async (request, context) => {
     headers: { "content-type": "text/plain" },
   });
 };
- 
-export const config = {
-  path: "/Helloworld", // Routes this function to /hello
-};
